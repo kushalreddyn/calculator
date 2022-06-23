@@ -1,0 +1,61 @@
+<html>
+    <head>
+        <title>CALCULATOR</title>
+        <link rel="stylesheet" href="calculator.css"/>
+        <script src="calculator.js"></script>
+    </head>
+    <body>
+        <div class="background">
+            <table class="calculator">
+                <tr>
+                    <td class="screen" colspan="4">
+                        <div class="answer">
+                            <div id="display"></div>
+                        </div>
+                        <div class="answer1">
+                            <div id="equal"></div>
+                        </div></td>
+                </tr>
+                <tr>
+                    <th class="n"><button onclick="show(this)" value=" " class="op1">AC</button></th>
+                    <th class="n"><button onclick="show(this)" value="(" class="op1">(</button></th>
+                    <th class="n"><button onclick="show(this)" value=")" class="op1">)</button></th>
+                    <th class="o"><button onclick="show(this)" value="+" class="op">+</button></th>
+                </tr>
+                <tr>
+                    <th class="n"><button onclick="show(this)" value="1" class="num">1</button></th>
+                    <th class="n"><button onclick="show(this)" value="2" class="num">2</button></th>
+                    <th class="n"><button onclick="show(this)" value="3" class="num">3</button></th>
+                    <th class="o"><button onclick="show(this)" value="-" class="op">-</button></th>
+                </tr>
+                <tr>
+                    <th class="n"><button onclick="show(this)" value="4" class="num">4</button></th>
+                    <th class="n"><button onclick="show(this)" value="5" class="num">5</button></th>
+                    <th class="n"><button onclick="show(this)" value="6" class="num">6</button></th>
+                    <th class="o"><button onclick="show(this)" value="*" class="op">x</button></th>
+                </tr>
+                <tr>
+                    <th class="n"><button onclick="show(this)" value="7" class="num">7</button></th>
+                    <th class="n"><button onclick="show(this)" value="8" class="num">8</button></th>
+                    <th class="n"><button onclick="show(this)" value="9" class="num">9</button></th>
+                    <th class="o"><button onclick="show(this)" value="/" class="op">/</button></th>
+                </tr>
+                <tr>
+                    <th class="n"><button onclick="show(this)" value="." class="num">.</button></th>
+                    <th class="n"><button onclick="show(this)" value="0" class="num">0</button></th>
+                    <th class="n"><button onclick="show(this)" value="c" class="num">CLEAR</button></th>
+                    <th class="o"><button onclick="show(this)" value="%" class="op">%</button></th>
+                </tr>
+                <tr>
+                    <td class="lc" colspan="4"><button onclick="show(this)" value="a" class="lastcol">=</button></td>
+                </tr>
+            </div>
+        </table>
+        <br>
+        <div class="change">
+            <button class="ch" onclick="magic()">Change theme</button>
+        </div>
+        </div>
+        
+    </body>
+</html>
